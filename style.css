@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 14px;
+  font-weight:bolder;
+  /* background: rgb(244,220,197);
+  background: radial-gradient(circle, rgba(244,220,197,0.8578199052132701) 2%, rgba(255,238,185,0.5) 93%);  */
+  background: url(imgs/back.jpg)  30px 20px;
+  color:rgb(11, 37, 61);
+  
+}
+a {
+  color:rgb(4, 5, 4);
+  text-decoration: none;
+}
+
+a:hover {
+  color:olivedrab;
+}
+
+.container {
+  max-width:100%;
+  /* margin: auto; */
+}
+
+
+.name {
+  color:darkred;
+  /* border-bottom: 1vh solid green; */
+  text-align: center;
+  
+}
+
+.like {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+}
+
+.like strong{
+  color: rgb(224, 5, 5);
+}
+
+.card {
+  background: rgb(231,190,150);
+  background: radial-gradient(circle, rgba(231,190,150,0.7578199052132701) 2%, rgba(235,150,84,0.7) 100%);
+  border: 0.5vh solid rgb(209, 190, 176);
+  margin-bottom: 2vh;
+  padding-left: 1vh;
+  padding-right: 1vh;
+  padding-bottom: 1vh;
+  border-radius: 10px;
+  width: 40vh;
+  margin: 1vh auto;
+  
+}
+
+.card h3 {
+  font-size: 2em;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.card:hover {
+  background:rgba(152, 171, 172, 0.8);
+}
+
+.social {
+  background: rgb(224,234,235);
+  background: radial-gradient(circle, rgba(224,234,235,1) 9%, rgba(223,221,193,0.6895734597156398) 100%);
+  color:rgb(226, 107, 131);
+  margin-top: 5vh;
+  width: 40vh;
+  margin: auto;
+}
+
+.face {
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  width:20vh;
+  display: block;
+  margin:auto;
+  border-radius: 5px;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style:none;
+}
+
+.list li {
+  margin-bottom: 8px;
+  border-bottom: 1px solid rgba(212, 210, 177, 0.89);
+  color:rgb(0, 0, 0)
+}
+
+.table {
+  /* background-color: beige; */
+  width: 100%;
+  border-radius: 5px;
+  text-align: left;
+}
+
+td {
+  color: rgba(30, 50, 10, 0.7);
+}
+
+.table td:hover {
+  opacity: 0.8;
+  background-color: blanchedalmond;
+}
+
+
+.connect {
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: cornsilk;
+  width: 40vh;
+  margin: 20px auto;
+  
+  
+}
+
+.btn {
+  color:wheat;
+  background-color: crimson;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family:inherit;
+  width: 150px;
+  height: 25px;
+  display: block;
+  margin: 10px auto ;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.your {
+  display: block;
+  margin: 20px;
+}
+.your input {
+  width: 100%
+}
+
+#area {
+  resize: none;
+  width: 100%
+}
+
+@media (max-width:500px) {
+  .connect {
+    width: 200px;
+    display: block
+  }
+  .social {
+    width: 300px;
+    height: 100px;
+    font-size: 1em;
+    text-align: center;
+
+  }
+  .social h3 {
+    font-size: 1em;
+  }
+}
+
